@@ -57,16 +57,22 @@ feature/<SceneName>
 
 ### 예시 구조
 ```
-project-root/
-├─ dev/
-│ ├─ feature/PackingScene
-│ ├─ feature/CookScene
-│ └─ ...
-├─ MemberA/
-│ ├─ scripts/
-│ └─ assets/
-├─ MemberB/
-│ └─ ...
+UnityProject/
+├─ Assets/
+│  ├─ Scenes/
+│  ├─ Scripts/
+│  ├─ Resources/
+│  ├─ Members/
+│  │  ├─ MemberA/
+│  │  │  ├─ Scripts/
+│  │  │  └─ TestAssets/
+│  │  ├─ MemberB/
+│  │  │  └─ ...
+│  │  └─ MemberC/
+│  └─ ...
+├─ ProjectSettings/
+├─ Packages/
+└─ ...
 ```
 
 > 📌 **팁:** 개인 폴더 내 리소스/스크립트는 작업 단위로 명확히 구분해주세요.
